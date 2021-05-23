@@ -28,12 +28,6 @@ xmas <- read.csv("https://www.dropbox.com/s/e584pryn8evm1gz/xmas.csv?dl=1")
 
 ## Step One:  Plurals
 
-Note that the gifts are listed in singular: for example, on day five the
-narrator receives "five golden rings", but the entry in the dataset for the gift
-on day 5 simply says "ring".  
-
-Using the skeleton of the `pluralize_gift()` function, complete the code so that 
-the function takes a gift and returns the appropriate plural. 
 
 ```{r}
 # Function that takes a noun and makes it plural
